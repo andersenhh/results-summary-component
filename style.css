@@ -1,9 +1,8 @@
 @font-face {
     font-family: "HankenGrotesk";
-    font-display: swap;
     font-weight: 500 700 800;
-    src: url('/assets/fonts/HankenGrotesk-VariableFont_wght.ttf')
-    format("truetype");
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') 
+       format('truetype');
 }
 
 *,
@@ -162,17 +161,29 @@ body {
 
 .summary-item-title-1 {
     color: hsl(0, 100%, 67%);
+    font-weight: 500;
 }
 
 .summary-item-title-2 {
     color: hsl(39, 100%, 56%);
+    font-weight: 500;
 }
 
 .summary-item-title-3 {
     color: hsl(166, 100%, 37%);
+    font-weight: 500;  
 }
 
 .summary-item-title-4 {
     color: hsl(234, 85%, 45%);
+    font-weight: 500;
 }
 
+.summary-score span{
+font-weight: 500;
+color: black;
+}
+
+.summary-score  {
+ color: rgb(68, 65, 65, 0.5);
+}
